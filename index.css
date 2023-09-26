@@ -1875,7 +1875,7 @@ p.slogan_text {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 370px) {
 
     .img_angel {
         width: 150%;
