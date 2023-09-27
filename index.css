@@ -331,6 +331,7 @@ p.slogan_text {
 .quiz_text_text {
     font-size: 19px;
     font-family: Helion_text;
+    width: 90%;
 }
 
 .quiz_text_btns {
@@ -357,7 +358,9 @@ p.slogan_text {
     position: absolute;
     right: 0;
     height: 200px;
-    margin-right: -25px;
+    transform: rotate(-8deg);
+    /*margin-right: -25px;*/
+    margin-right: -50px;
     margin-top: -100px;
     margin-bottom: 100px;
 }
@@ -628,7 +631,8 @@ p.slogan_text {
 
     .img_circles {
         height: 350px;
-        margin-top: -25%;
+        margin-top: -30%;
+        margin-right: -20px;
     }
 
     .kontrnastup_block {
@@ -858,6 +862,7 @@ p.slogan_text {
     .img_circles {
         height: 260px;
         margin-top: -32%;
+        margin-right: -15px;
     }
 
     .kontrnastup_block {
@@ -1089,6 +1094,7 @@ p.slogan_text {
     .img_circles {
         height: 225px;
         margin-top: -32%;
+        margin-right: -12px;
     }
 
     .kontrnastup_block {
@@ -1241,21 +1247,8 @@ p.slogan_text {
     .table_btn_play {
         width: 100%;
         height: 36px;
-        /*margin-top: 15px;*/
     }
 
-    /*.gif_man {*/
-    /*    width: 8%;*/
-    /*    height: auto;*/
-    /*    margin-left: 7%;*/
-    /*    margin-top: 10px;*/
-    /*}*/
-    /*.gif_pointer {*/
-    /*    width: 5%;*/
-    /*    height: auto;*/
-    /*    margin-left: 58vw;*/
-    /*    margin-top: -35px;*/
-    /*}*/
     .products_page {
         padding-bottom: 70px;
     }
@@ -1333,6 +1326,7 @@ p.slogan_text {
     .img_circles {
         height: 175px;
         margin-top: -28%;
+        margin-right: -5px;
     }
 
     .kontrnastup_block {
@@ -1566,6 +1560,7 @@ p.slogan_text {
     .img_circles {
         height: 125px;
         margin-top: -37%;
+        margin-right: -5px;
     }
 
     .kontrnastup_block {
@@ -1676,13 +1671,14 @@ p.slogan_text {
     }
 
     .img_planet {
-        width: 100%;
+        width: 90%;
         margin-top: -25%;
-        margin-right: -5%;
+        /*margin-right: -10%;*/
+        margin-left: 10%;
     }
 
     .who_we_text {
-        width: 120%;
+        width: 110%;
         padding-left: 20px;
         margin-top: 10px;
         font-size: 13px;
@@ -1690,6 +1686,10 @@ p.slogan_text {
 
     .who_we_block_img {
         margin-top: 25px;
+    }
+
+    .who_we_slogan_block{
+        margin-top: 50px;
     }
 
     .img_frane {
@@ -1804,6 +1804,7 @@ p.slogan_text {
     .img_circles {
         height: 125px;
         margin-top: -37%;
+        margin-right: -5px;
     }
 
     .kontrnastup_block {
@@ -1875,7 +1876,7 @@ p.slogan_text {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
 
     .img_angel {
         width: 150%;
@@ -1921,7 +1922,7 @@ p.slogan_text {
         width: 100%;
         padding-left: 10px;
         margin-top: 5px;
-        font-size: 6px;
+        font-size: 7px;
     }
 
     .who_we_block_img {
@@ -1941,12 +1942,12 @@ p.slogan_text {
     }
 
     p.slogan_text {
-        font-size: 6.5px;
+        font-size: 7px;
         margin-top: -29%;
     }
 
     .who_we_table_block {
-        padding-top: 50px;
+        padding-top: 70px;
         padding-bottom: 25px;
     }
 
@@ -2053,7 +2054,8 @@ p.slogan_text {
 
     .img_circles {
         height: 70px;
-        margin-top: -37%;
+        margin-top: -42%;
+        margin-right: -5px;
     }
 
     .kontrnastup_block {
