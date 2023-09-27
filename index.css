@@ -13,6 +13,16 @@ p {
     font-family: Helion_text;
 }
 
+.block_separator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block_separ{
+    width: 0%;
+}
+
 
 .invite_block {
     width: 100%;
@@ -477,6 +487,11 @@ p.slogan_text {
 }
 
 @media (min-width: 1441px) {
+
+    .block_separ{
+        width: 25%;
+    }
+
     .img_angel {
         width: 135%;
         margin-left: 45%;
@@ -707,6 +722,10 @@ p.slogan_text {
 
 @media (max-width: 1440px) {
 
+    .block_separ{
+        width: 25%;
+    }
+
     .img_angel {
         width: 150%;
         margin-left: 35%;
@@ -936,6 +955,10 @@ p.slogan_text {
 }
 
 @media (max-width: 1260px) {
+
+    .block_separ{
+        width: 25%;
+    }
 
     .img_angel {
         width: 150%;
