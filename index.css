@@ -13,14 +13,27 @@ p {
     font-family: Helion_text;
 }
 
-.block_separator{
+/*.who_we, .invite_cap, .who_we_slogan, .who_we_table {*/
+/*    width: 50%;*/
+/*}*/
+
+.block_separator {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.block_separ{
-    width: 0%;
+.block_separ {
+    position: relative;
+    /*background-color: #fff;*/
+    width: 10%;
+    /*background-image: url(images/back_1.png);*/
+    /*background-size: 100%;*/
+}
+
+.container {
+    width: 80%;
 }
 
 
@@ -28,16 +41,13 @@ p {
     width: 100%;
     background-image: url(images/back.png);
     background-size: 120%;
-    background-position-y: -10px;
+    background-position-y: -50px;
 }
 
 .container {
     width: 100%;
 }
 
-.invite_cap {
-    width: 100%;
-}
 
 .invite_cap_cont {
     width: 100%;
@@ -46,8 +56,12 @@ p {
     justify-content: space-between;
 }
 
-.invite_gate, .invite_block_text {
-    width: 50%;
+.invite_gate {
+    width: 40%;
+}
+
+.invite_block_text {
+    width: 60%;
 }
 
 .invite_gate {
@@ -56,28 +70,10 @@ p {
 
 .img_gate {
     position: absolute;
-    top: 0;
+    top: -55px;
     left: 0;
     width: 100%;
     z-index: 1;
-}
-
-.img_phone {
-    z-index: 2;
-    width: 13%;
-    margin-top: 41%;
-    margin-left: 34%;
-    /*width: 65px;*/
-    /*height: 130px;*/
-}
-
-.angel {
-    width: 50%;
-}
-
-.img_angel {
-    width: 120%;
-    margin-left: 50%;
 }
 
 .invite_block_subtitle {
@@ -85,137 +81,174 @@ p {
 }
 
 .img_subtitle {
-    width: 70%;
-    margin-top: -10%;
     position: absolute;
-    right: 0;
-    /*margin-left: 90px;*/
-}
-
-.invite_block_title {
-    position: relative;
-    width: 100%;
-    margin-top: 30px;
-    margin-left: -30px;
-}
-
-
-.img_heaven {
-    position: absolute;
-    right: 0;
-    width: 100%;
+    width: 80%;
+    top: 0;
+    left: 10%;
 }
 
 .who_we_blocks {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-top: 25%;
+    justify-content: space-between;
+    margin-top: 33%;
+}
+
+.who_we_block_text {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .who_we_title {
     padding-left: 50px;
-    width: 50%;
+    width: 25%;
     display: flex;
     flex-direction: row;
     /*justify-content: space-between;*/
 }
 
-.img_tv {
-    height: 125px;
-    padding-right: 20px;
+.who_we_block_title_text {
+    width: 70%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_atom {
+    width: 100%;
+    height: 150px;
+    /*height: auto;*/
 }
 
 .img_who_we_title {
     width: 100%;
 }
 
-.img_planet {
-    width: 100%;
-    margin-top: -10%;
-    margin-right: -65px;
-}
-
 .who_we_text {
+    margin-left: 13px;
     font-family: Helion_text;
     width: 100%;
-    padding-left: 60px;
     margin-top: 10px;
-    font-size: 25px;
+    font-size: 16px;
 }
 
+.who_we_block_img {
+    position: relative;
+    width: 45%;
+    height: 15%;
+}
+
+.img_planet {
+    width: 50%;
+    height: auto;
+    margin-top: -15%;
+    /*margin-right: -65px;*/
+}
+
+.img_planet_right {
+    position: absolute;
+    width: 20%;
+    height: auto;
+}
+
+
 .who_we_slogan {
-    margin-top: -20%;
+    margin-top: -5%;
 }
 
 .who_we_slogan_block {
+    position: relative;
     text-align: center;
     width: 100%;
 }
 
-.img_frane {
+.img_load {
     margin: 0 auto;
-    width: 50%;
+    width: 10%;
+    height: auto;
 }
 
 p.slogan_text {
-    font-size: 26px;
-    margin-top: -27%;
+    font-size: 20px;
+    /*margin-top: -27%;*/
+}
+
+.img_we_creators {
+    margin: 0 auto;
+    width: 45%;
+    height: auto;
+}
+
+.img_snake {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 27%;
 }
 
 
 .who_we_table_block {
     /*padding-top: 50px;*/
-    background-image: url(images/gradient.png);
-    background-size: 100%;
+    margin-top: 50px;
     padding-bottom: 50px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     text-align: center;
 
     position: relative;
 }
 
 
-.img_table {
-    /*margin: 5% 0 0 10%;*/
-    padding-left: 8%;
-    width: 90%;
+.img_logo2 {
+    margin-left: 10%;
+    /*margin: 0 auto;*/
+    /*padding-left: 8%;*/
+    width: 15%;
+    height: 15%;
 }
 
 .cont_inside_table_text {
-    position: absolute;
-    top: 37%;
-    left: 9%;
-    width: 80%;
-    text-align: center;
+    /*position: absolute;*/
+    /*top: 37%;*/
+    /*left: 9%;*/
+    position: relative;
+    width: 75%;
+    /*text-align: center;*/
 }
 
 .table_text {
-    /*margin: 0 auto;*/
+    text-align: left;
+    position: relative;
+    padding-top: 2%;
     width: 100%;
     /*text-align: center;*/
     font-family: Helion_text;
-    font-size: 34px;
-    /*margin-top: -245px;*/
+    font-size: 22px;
 }
 
-.cont_inside_table_btn {
+.images_in_text {
+    position: relative;
+    padding-top: 35px;
+}
+
+.img_btn_play {
+    width: 25%;
     position: absolute;
-    bottom: 12%;
-    left: 38%;
-    width: 23%;
-    height: 81px;
+    bottom: 0;
 }
 
-.table_btn_play {
-    display: none;
-    /*margin: 0 auto;*/
-    width: 100%;
-    height: 100%;
-    border: 0;
-    /*margin-top: 37px;*/
+.gif_pointer {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    left: 68%;
+    bottom: -20px;
+    /*transform: translateX(-100%);*/
 }
 
 .cont_inside_table_gif_man {
@@ -233,1923 +266,1938 @@ p.slogan_text {
     /*margin-top: -47px;*/
 }
 
-.cont_inside_table_gif_pointer {
-    position: absolute;
-    bottom: 50px;
-    left: 58%;
-
-    width: 5%;
-    height: auto;
-}
-
-.gif_pointer {
-    width: 100%;
-    height: auto;
-    /*margin-left: 58vw;*/
-    /*margin-top: -50px;*/
-}
-
-.img_line {
-    /*padding-top: 25px;*/
-    width: 100%;
-    height: 25px;
-}
-
-.products_page {
-    background-image: url(images/back.png);
-    background-size: 120%;
-    padding-bottom: 100px;
-}
-
-
-.products_blocks {
-    margin: 25px 50px 0 50px;
+.who_we_lab {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.products_block_logo {
-    width: 30%;
-    text-align: center;
+.who_we_lab_logo {
+    width: 50%;
+    text-align: right;
 }
 
-.img_tv_2 {
-    width: 100%;
+.lab_logo {
+    width: 50%;
+    height: auto;
 }
 
-.products_block_text {
-    font-size: 20px;
-    width: 70%;
+.who_we_lab_text {
+    width: 50%;
 }
 
-.product_title {
-    margin-top: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-
-.product_title_text {
-    width: 55%;
+.lab_text {
     text-align: left;
+    font-family: Helion_text;
+    font-size: 15px;
 }
 
-.img_prod {
-    width: 80%;
+.our_research {
+    width: 100%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 75px;
+    padding-bottom: 50px;
 }
 
-.product_title_images {
-    display: flex;
-    align-items: center;
-    bottom: 0;
-    width: 25%;
-}
-
-.img_cir {
-    width: 80%;
-    height: 50%;
+.img_our_research {
+    width: 75%;
+    height: auto;
 }
 
 .quiz_block {
-    margin-top: 25px;
-    padding: 0 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.quiz_photo {
-    width: 25%;
-}
-
-.img_quiz_logo {
-    width: 93%;
-}
-
-.quiz_text {
-    width: 65%;
-}
-
-.quiz_text_title {
-    /*text-transform: uppercase;*/
-    font-family: Helion;
-    font-size: 30px;
-}
-
-.quiz_text_text {
-    font-size: 19px;
-    font-family: Helion_text;
-    width: 90%;
-}
-
-.quiz_text_btns {
-    margin-top: 30px;
-    width: 100%;
+    padding-left: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.aps_btn, .gp_btn {
-    width: 45%;
-    height: 50px;
-    border: 0;
+
+.quiz_main_block {
+    width: 40%;
+    text-align: left;
 }
 
-.aps_btn:hover, .gp_btn:hover {
+.quiz_title {
+    font-size: 35px;
+    font-family: Helion;
+}
+
+.quiz_text {
+    font-size: 20px;
+    font-family: Helion_text;
+}
+
+.quiz_btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.quiz_btns > img {
+    width: 45%;
+    height: auto;
+}
+
+.quiz_btns > img:hover {
     cursor: pointer;
     transform: scale(1.03);
     transition-duration: 1s;
 }
 
-.img_circles {
-    position: absolute;
-    right: 0;
-    height: 200px;
-    /*transform: rotate(-8deg);*/
-    /*margin-right: -25px;*/
-    margin-right: 0px!important;
-    margin-top: -100px;
-    margin-bottom: 100px;
+.quiz_photos {
+    position: relative;
+    width: 60%;
 }
 
+.quiz_phone_1 {
+    position: absolute;
+    bottom: -20%;
+    left: 15%;
+    width: 25%;
+    height: auto;
+}
+
+.quiz_phone_2 {
+    position: absolute;
+    top: 0;
+    right: 25%;
+    width: 25%;
+    height: auto;
+}
 
 .kontrnastup_block {
-    padding: 0 75px;
-    margin-top: 25px;
-}
-
-.kontrnastup_text {
-    width: 100%;
-}
-
-.kontr_text_title {
-    font-size: 30px;
-    font-family: Helion;
-}
-
-.kontr_text_text {
-    font-family: Helion_text;
-    width: 100%;
-    font-size: 19px;
-}
-
-.kontrnastup_photo {
-    width: 100%;
-    text-align: center;
-}
-
-.img_kontr {
-    width: 70%;
-}
-
-.sky_line {
-    width: 100%;
-}
-
-.img_sky_line {
-    margin-top: -60px;
-    width: 100%;
-    height: 75px;
-}
-
-.our_lab {
-    background-image: url(images/back.png);
-    background-size: 100%;
-    padding-bottom: 80px;
-}
-
-.our_lab_block {
+    margin-top: 50px;
+    padding-left: 15px;
     width: 90%;
-    padding-top: 75px;
-    padding-left: 50px;
 }
 
-.our_lab_img {
+.kontr_main_block {
+    text-align: left;
     width: 65%;
 }
 
-.lab_text {
-    margin-left: 13px;
-    width: 90%;
-    font-size: 19px;
+.kontr_title {
+    font-family: Helion;
+    font-size: 35px;
+}
+
+.kontr_text {
+    font-size: 20px;
     font-family: Helion_text;
 }
 
-.lab_subtext {
+.kontr_photo {
+    position: relative;
+    width: 50%;
+}
+
+.kontr_phone {
     width: 90%;
-    margin-left: 13px;
-    margin-top: 20px;
-    font-size: 19px;
-    font-family: Helion;
-    text-transform: uppercase;
+    height: auto;
 }
 
-.tables_block {
+.img_sims {
+    position: absolute;
+    width: 75%;
+}
+
+.our_lab_block {
     width: 100%;
-    text-align: center;
+    background-image: url(images/back.png);
+    background-size: 120%;
 }
 
-.img_wind_pc {
-    margin-top: -75px;
+.img_separ_line {
+    margin-top: -10px;
+    width: 100%;
+    height: 50px;
+}
+
+.our_lab {
+    width: 100%;
+    margin-left: 10%;
+}
+
+.lab_block {
+    margin-top: 50px;
+    width: 80%;
+    text-align: left;
+}
+
+.img_our_lab {
+    width: 60%;
+    height: auto;
+}
+
+.lab_text {
+    padding-left: 15px;
+    width: 90%;
+    font-family: Helion_text;
+    font-size: 20px;
+}
+
+.lab_sublext {
+    padding-left: 15px;
+    font-size: 25px;
+    font-family: Helion_text;
+}
+
+.img_lab_table {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+
+.footer {
+    background-image: url(images/kletka.png);
+    background-size: 120%;
+    background-position-x:-100px;
+    margin-top: -200px;
     width: 100%;
 }
 
-.footer_img {
+.footer_block {
+    padding-top: 275px;
+    padding-bottom: 50px;
+    /*margin: 0 75px;*/
     width: 100%;
-    text-align: center;
-}
-
-.img_cletka {
-    width: 100%;
-    margin-top: -100px;
-}
-
-.footer_text {
+    text-align: left;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: -80px;
-    padding-left: 150px;
-    font-size: 19px;
+    justify-content: space-around;
+}
+
+.footer_adres, .footer_cont {
+    font-size: 20px;
     font-family: Helion_text;
 }
 
-.footer_text_adress {
-    width: 30%;
+
+.buble_left{
+    width: 175%;
+    height: auto;
+    /*transform: rotate(28deg);*/
+    position: absolute;
+    left: -92%;
+    top: 12%;
 }
 
-.footer_text_prop {
-    margin-left: 50px;
-    width: 70%;
+.kube_left{
+    width: 200%;
+    height: auto;
+    position: absolute;
+    left: -64%;
+    top: 43%;
 }
 
-@media (min-width: 1441px) {
-
-    .block_separ{
-        width: 25%;
-    }
-
-    .img_angel {
-        width: 135%;
-        margin-left: 45%;
-    }
-
-    .img_subtitle {
-        width: 100%;
-        margin-top: -28%;
-    }
-
-    .invite_block_title {
-        margin-top: 15px;
-        margin-left: -5px !important;
-    }
-
-    .who_we_blocks {
-        margin-top: 25%;
-    }
-
-    .who_we_title {
-        padding-left: 110px;
-    }
-
-    .img_tv {
-        height: 300px;
-        padding-right: 20px;
-    }
-
-    .img_who_we_title {
-        height: 120%;
-        width: 130%;
-        padding-top: 15%;
-    }
-
-    .img_planet {
-        width: 100%;
-        margin-top: -25%;
-        margin-right: -5%;
-    }
-
-    .who_we_text {
-        width: 120%;
-        padding-left: 110px;
-        margin-top: 25px;
-        font-size: 38px;
-    }
-
-    .who_we_slogan {
-        margin-top: -13%;
-    }
-
-    p.slogan_text {
-        margin-top: -25%;
-        font-size: 35px;
-    }
-
-    .who_we_table_block {
-        padding-top: 200px;
-    }
-
-    .cont_inside_table_text {
-        top: 45%;
-    }
-
-    .table_text {
-        font-size: 36px;
-    }
-
-    .cont_inside_table_btn {
-        bottom: 9%;
-    }
-
-    .table_btn_play {
-        width: 100%;
-        height: 65px;
-    }
-
-
-    .products_page {
-        padding-bottom: 135px;
-    }
-
-    .img_line {
-        height: 25px;
-    }
-
-    .products_blocks {
-        margin: 50px 110px 0 110px;
-    }
-
-    .products_block_text {
-        padding-left: 35px;
-        font-size: 40px;
-    }
-
-    .product_title {
-        margin-top: 15px;
-    }
-
-    .product_title_text {
-        width: 65%;
-    }
-
-    .product_title_images {
-        width: 30%;
-    }
-
-    .img_cir {
-        width: 85%;
-        height: 60%;
-    }
-
-    .quiz_block {
-        margin-top: 15px;
-        padding: 0 110px;
-    }
-
-    .quiz_photo {
-        width: 25%;
-    }
-
-    .img_quiz_logo {
-        width: 100%;
-    }
-
-    .quiz_text {
-        width: 70%;
-    }
-
-    .quiz_text_title {
-        margin-top: 0px;
-        font-size: 75px;
-    }
-
-    .quiz_text_text {
-        font-size: 55px;
-    }
-
-    .quiz_text_btns {
-        margin-top: 35px;
-    }
-
-    .aps_btn, .gp_btn {
-        height: 115px;
-    }
-
-    .aps_btn:hover, .gp_btn:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        transition-duration: 1s;
-    }
-
-    .img_circles {
-        height: 350px;
-        margin-top: -30%;
-        margin-right: -20px;
-    }
-
-    .kontrnastup_block {
-        padding: 0 110px;
-        margin-top: 25px;
-    }
-
-    .kontrnastup_text {
-        width: 100%;
-    }
-
-    .kontr_text_title {
-        font-size: 75px;
-    }
-
-    .kontr_text_text {
-        font-size: 55px;
-    }
-
-    .kontrnastup_photo {
-        width: 100%;
-        text-align: center;
-    }
-
-    .img_kontr {
-        width: 70%;
-    }
-
-    .img_sky_line {
-        margin-top: -110px;
-        height: 150px;
-    }
-
-    .our_lab {
-        padding-bottom: 90px;
-    }
-
-    .our_lab_block {
-        padding-top: 110px;
-        padding-left: 110px;
-    }
-
-    .our_lab_img {
-        width: 90%;
-    }
-
-    .lab_text {
-        font-size: 40px;
-    }
-
-    .lab_subtext {
-        margin-top: 10px;
-        font-size: 45px;
-    }
-
-    .img_wind_pc {
-        margin-top: -8%;
-        width: 100%;
-    }
-
-    .img_cletka {
-        margin-top: -10%;
-    }
-
-    .footer_text {
-        margin-top: -10%;
-        padding-left: 19%;
-        font-size: 35px;
-    }
-
+.fig_left{
+    width: 200%;
+    height: auto;
+    position: absolute;
+    left: -67%;
+    top: 70%;
 }
 
-@media (max-width: 1440px) {
-
-    .block_separ{
-        width: 25%;
-    }
-
-    .img_angel {
-        width: 150%;
-        margin-left: 35%;
-    }
-
-    .img_subtitle {
-        width: 100%;
-        margin-top: -28%;
-    }
-
-    .invite_block_title {
-        margin-top: 20px;
-        margin-left: -5px !important;
-    }
-
-    .who_we_blocks {
-        margin-top: 25%;
-    }
-
-    .who_we_title {
-        padding-left: 65px;
-    }
-
-    .img_tv {
-        height: 200px;
-        padding-right: 10px;
-    }
-
-    .img_who_we_title {
-        height: 120%;
-        width: 130%;
-        padding-top: 15%;
-    }
-
-    .img_planet {
-        width: 100%;
-        margin-top: -25%;
-        margin-right: -5%;
-    }
-
-    .who_we_text {
-        width: 120%;
-        padding-left: 65px;
-        margin-top: 25px;
-        font-size: 25px;
-    }
-
-    .who_we_slogan {
-        margin-top: -13%;
-    }
-
-    p.slogan_text {
-        margin-top: -25%;
-        font-size: 28px;
-    }
-
-    .who_we_table_block {
-        padding-top: 120px;
-    }
-
-    .cont_inside_table_text {
-        top: 42%;
-    }
-
-    .table_text {
-        font-size: 24px;
-    }
-
-    .cont_inside_table_btn {
-        bottom: 9%;
-    }
-
-    .table_btn_play {
-        width: 100%;
-        height: 60px;
-    }
-
-
-    .products_page {
-        padding-bottom: 95px;
-    }
-
-    .img_line {
-        height: 25px;
-    }
-
-    .products_blocks {
-        margin: 35px 65px 0 65px;
-    }
-
-    .products_block_text {
-        padding-left: 25px;
-        font-size: 28px;
-    }
-
-    .product_title {
-        margin-top: 15px;
-    }
-
-    .product_title_text {
-        width: 65%;
-    }
-
-    .product_title_images {
-        width: 30%;
-    }
-
-    .img_cir {
-        width: 85%;
-        height: 60%;
-    }
-
-    .quiz_block {
-        margin-top: 15px;
-        padding: 0 65px;
-    }
-
-    .quiz_photo {
-        width: 25%;
-    }
-
-    .img_quiz_logo {
-        width: 100%;
-    }
-
-    .quiz_text {
-        width: 70%;
-    }
-
-    .quiz_text_title {
-        margin-top: 0px;
-        font-size: 55px;
-    }
-
-    .quiz_text_text {
-        font-size: 35px;
-    }
-
-    .quiz_text_btns {
-        margin-top: 35px;
-    }
-
-    .aps_btn, .gp_btn {
-        height: 85px;
-    }
-
-    .aps_btn:hover, .gp_btn:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        transition-duration: 1s;
-    }
-
-    .img_circles {
-        height: 260px;
-        margin-top: -32%;
-        margin-right: -15px;
-    }
-
-    .kontrnastup_block {
-        padding: 0 65px;
-        margin-top: 25px;
-    }
-
-    .kontrnastup_text {
-        width: 100%;
-    }
-
-    .kontr_text_title {
-        font-size: 55px;
-    }
-
-    .kontr_text_text {
-        font-size: 35px;
-    }
-
-    .kontrnastup_photo {
-        width: 100%;
-        text-align: center;
-    }
-
-    .img_kontr {
-        width: 70%;
-    }
-
-    .img_sky_line {
-        margin-top: -80px;
-        height: 100px;
-    }
-
-    .our_lab {
-        padding-bottom: 40px;
-    }
-
-    .our_lab_block {
-        padding-top: 25px;
-        padding-left: 65px;
-    }
-
-    .our_lab_img {
-        width: 90%;
-    }
-
-    .lab_text {
-        font-size: 28px;
-    }
-
-    .lab_subtext {
-        margin-top: 10px;
-        font-size: 32px;
-    }
-
-    .img_wind_pc {
-        margin-top: -8%;
-        width: 100%;
-    }
-
-    .img_cletka {
-        margin-top: -10%;
-    }
-
-    .footer_text {
-        margin-top: -11%;
-        padding-left: 24%;
-        font-size: 25px;
-    }
-
+.geo_left{
+    width: 200%;
+    height: auto;
+    position: absolute;
+    left: -87%;
+    top: 8%;
 }
 
-@media (max-width: 1260px) {
-
-    .block_separ{
-        width: 25%;
-    }
-
-    .img_angel {
-        width: 150%;
-        margin-left: 35%;
-    }
-
-    .img_subtitle {
-        width: 100%;
-        margin-top: -28%;
-    }
-
-    .invite_block_title {
-        margin-top: 20px;
-        margin-left: -5px !important;
-    }
-
-    .who_we_blocks {
-        margin-top: 25%;
-    }
-
-    .who_we_title {
-        padding-left: 65px;
-    }
-
-    .img_tv {
-        height: 175px;
-        padding-right: 10px;
-    }
-
-    .img_who_we_title {
-        /*height: 90px;*/
-        height: 120%;
-        width: 130%;
-        padding-top: 15%;
-    }
-
-    .img_planet {
-        width: 100%;
-        margin-top: -25%;
-        margin-right: -5%;
-    }
-
-    .who_we_text {
-        width: 120%;
-        padding-left: 65px;
-        margin-top: 25px;
-        font-size: 21px;
-    }
-
-    .who_we_slogan {
-        margin-top: -13%;
-    }
-
-    p.slogan_text {
-        margin-top: -25%;
-        font-size: 24px;
-    }
-
-    .who_we_table_block {
-        padding-top: 110px;
-    }
-
-    .cont_inside_table_text {
-        top: 40%;
-    }
-
-    .table_text {
-        font-size: 20px;
-    }
-
-    .cont_inside_table_btn {
-        bottom: 9%;
-    }
-
-    .table_btn_play {
-        width: 100%;
-        height: 45px;
-        margin-top: 15px;
-    }
-
-
-    .products_page {
-        padding-bottom: 95px;
-    }
-
-    .img_line {
-        height: 25px;
-    }
-
-    .products_blocks {
-        margin: 25px 65px 0 65px;
-    }
-
-    .products_block_text {
-        padding-left: 25px;
-        font-size: 24px;
-    }
-
-    .product_title {
-        margin-top: 15px;
-    }
-
-    .product_title_text {
-        width: 65%;
-    }
-
-    .product_title_images {
-        width: 30%;
-    }
-
-    .img_cir {
-        width: 85%;
-        height: 60%;
-    }
-
-    .quiz_block {
-        margin-top: 15px;
-        padding: 0 65px;
-    }
-
-    .quiz_photo {
-        width: 25%;
-    }
-
-    .img_quiz_logo {
-        width: 100%;
-    }
-
-    .quiz_text {
-        width: 70%;
-    }
-
-    .quiz_text_title {
-        margin-top: 0px;
-        font-size: 47px;
-    }
-
-    .quiz_text_text {
-        font-size: 30px;
-    }
-
-    .quiz_text_btns {
-        margin-top: 30px;
-    }
-
-    .aps_btn, .gp_btn {
-        height: 70px;
-    }
-
-    .aps_btn:hover, .gp_btn:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        transition-duration: 1s;
-    }
-
-    .img_circles {
-        height: 225px;
-        margin-top: -32%;
-        margin-right: -12px;
-    }
-
-    .kontrnastup_block {
-        padding: 0 65px;
-        margin-top: 25px;
-    }
-
-    .kontrnastup_text {
-        width: 100%;
-    }
-
-    .kontr_text_title {
-        font-size: 47px;
-    }
-
-    .kontr_text_text {
-        font-size: 30px;
-    }
-
-    .kontrnastup_photo {
-        width: 100%;
-        text-align: center;
-    }
-
-    .img_kontr {
-        width: 70%;
-    }
-
-    .img_sky_line {
-        margin-top: -80px;
-        height: 100px;
-    }
-
-    .our_lab {
-        padding-bottom: 40px;
-    }
-
-    .our_lab_block {
-        padding-top: 25px;
-        padding-left: 65px;
-    }
-
-    .our_lab_img {
-        width: 90%;
-    }
-
-    .lab_text {
-        font-size: 25px;
-    }
-
-    .lab_subtext {
-        margin-top: 10px;
-        font-size: 27px;
-    }
-
-    .img_wind_pc {
-        margin-top: -8%;
-        width: 100%;
-    }
-
-    .img_cletka {
-        margin-top: -10%;
-    }
-
-    .footer_text {
-        margin-top: -11%;
-        padding-left: 21%;
-        font-size: 21px;
-    }
-
+.buble_right_top{
+    width: 150%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -2%;
 }
 
-@media (max-width: 990px) {
-
-    .img_angel {
-        width: 150%;
-        margin-left: 35%;
-    }
-
-    .img_subtitle {
-        width: 85%;
-        margin-top: -20%;
-    }
-
-    .invite_block_title {
-        margin-top: 10px;
-        margin-left: -5px !important;
-    }
-
-    .who_we_blocks {
-        margin-top: 25%;
-    }
-
-    .who_we_title {
-        padding-left: 50px;
-    }
-
-    .img_tv {
-        height: 130px;
-        padding-right: 10px;
-    }
-
-    .img_who_we_title {
-        /*height: 90px;*/
-        height: 120%;
-        width: 130%;
-        padding-top: 15%;
-    }
-
-    .img_planet {
-        width: 100%;
-        margin-top: -25%;
-        margin-right: -5%;
-    }
-
-    .who_we_text {
-        width: 110%;
-        padding-left: 50px;
-        margin-top: 10px;
-        font-size: 17px;
-    }
-
-    .who_we_slogan {
-        margin-top: -10%;
-    }
-
-    p.slogan_text {
-        font-size: 19px;
-        margin-top: -26%;
-    }
-
-    .who_we_table_block {
-        padding-top: 50px;
-        /*padding-bottom: 100px;*/
-    }
-
-    .img_table {
-        /*margin: 5% 0 0 7%;*/
-    }
-
-    .table_text {
-        font-size: 16px;
-        /*margin-top: -28%;*/
-    }
-
-    .cont_inside_table_btn {
-        bottom: 6%;
-    }
-
-    .table_btn_play {
-        width: 100%;
-        height: 36px;
-    }
-
-    .products_page {
-        padding-bottom: 70px;
-    }
-
-    .img_line {
-        height: 25px;
-    }
-
-    .products_blocks {
-        margin: 25px 50px 0 50px;
-    }
-
-    .products_block_text {
-        padding-left: 25px;
-        font-size: 20px;
-    }
-
-    .product_title {
-        margin-top: 15px;
-    }
-
-    .product_title_text {
-        width: 65%;
-    }
-
-    .product_title_images {
-        width: 30%;
-    }
-
-    .img_cir {
-        width: 85%;
-        height: 60%;
-    }
-
-    .quiz_block {
-        margin-top: 15px;
-        padding: 0 50px;
-    }
-
-    .quiz_photo {
-        width: 25%;
-    }
-
-    .img_quiz_logo {
-        width: 100%;
-    }
-
-    .quiz_text {
-        width: 70%;
-    }
-
-    .quiz_text_title {
-        margin-top: 0px;
-        font-size: 40px;
-    }
-
-    .quiz_text_text {
-        font-size: 24px;
-    }
-
-    .quiz_text_btns {
-        margin-top: 20px;
-    }
-
-    .aps_btn, .gp_btn {
-        height: 55px;
-    }
-
-    .aps_btn:hover, .gp_btn:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        transition-duration: 1s;
-    }
-
-    .img_circles {
-        height: 175px;
-        margin-top: -28%;
-        margin-right: -5px;
-    }
-
-    .kontrnastup_block {
-        padding: 0 50px;
-        margin-top: 25px;
-    }
-
-    .kontrnastup_text {
-        width: 100%;
-    }
-
-    .kontr_text_title {
-        font-size: 40px;
-    }
-
-    .kontr_text_text {
-        font-size: 24px;
-    }
-
-    .kontrnastup_photo {
-        width: 100%;
-        text-align: center;
-    }
-
-    .img_kontr {
-        width: 70%;
-    }
-
-    .img_sky_line {
-        margin-top: -50px;
-        height: 80px;
-    }
-
-    .our_lab {
-        padding-bottom: 40px;
-    }
-
-    .our_lab_block {
-        padding-top: 25px;
-        padding-left: 50px;
-    }
-
-    .our_lab_img {
-        width: 90%;
-    }
-
-    .lab_text {
-        font-size: 23px;
-    }
-
-    .lab_subtext {
-        margin-top: 10px;
-        font-size: 25px;
-    }
-
-    .img_wind_pc {
-        margin-top: -8%;
-        width: 100%;
-    }
-
-    .img_cletka {
-        margin-top: -10%;
-    }
-
-    .footer_text {
-        margin-top: -12%;
-        padding-left: 18%;
-        font-size: 18px;
-    }
-
+.style_right{
+    width: 125%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 39%;
 }
 
-@media (max-width: 770px) {
-    .img_angel {
-        width: 150%;
-        margin-left: 35%;
-    }
-
-    .img_subtitle {
-        width: 93%;
-        margin-top: -25%;
-    }
-
-    .invite_block_title {
-        margin-top: 10px;
-        margin-left: -5px !important;
-    }
-
-    .who_we_blocks {
-        margin-top: 25%;
-    }
-
-    .who_we_title {
-        padding-left: 35px;
-    }
-
-    .img_tv {
-        height: 90px;
-        padding-right: 10px;
-    }
-
-    .img_who_we_title {
-        /*height: 90px;*/
-        height: 120%;
-        width: 130%;
-        padding-top: 15%;
-    }
-
-    .img_planet {
-        width: 100%;
-        margin-top: -25%;
-        margin-right: -5%;
-    }
-
-    .who_we_text {
-        width: 110%;
-        padding-left: 35px;
-        margin-top: 10px;
-        font-size: 16px;
-    }
-
-    .who_we_slogan {
-        margin-top: -10%;
-    }
-
-    .img_frane {
-        width: 64%;
-    }
-
-    p.slogan_text {
-        font-size: 16px;
-        margin-top: -30%;
-    }
-
-    .who_we_table_block {
-        padding-top: 90px;
-    }
-
-    .cont_inside_table_text {
-        top: 43%;
-    }
-
-    .table_text {
-        font-size: 11px;
-    }
-
-    .cont_inside_table_btn {
-        bottom: 4%;
-    }
-
-    .table_btn_play {
-        width: 100%;
-        height: 30px;
-    }
-
-
-    .products_page {
-        padding-bottom: 70px;
-    }
-
-    .img_line {
-        height: 15px;
-    }
-
-    .products_blocks {
-        margin: 15px 35px 0 35px;
-    }
-
-    .products_block_text {
-        padding-left: 15px;
-        font-size: 15px;
-    }
-
-    .product_title {
-        margin-top: 15px;
-    }
-
-    .product_title_text {
-        width: 65%;
-    }
-
-    .product_title_images {
-        width: 30%;
-    }
-
-    .img_cir {
-        width: 85%;
-        height: 60%;
-    }
-
-    .quiz_block {
-        margin-top: 15px;
-        padding: 0 35px;
-    }
-
-    .quiz_photo {
-        width: 25%;
-    }
-
-    .img_quiz_logo {
-        width: 100%;
-    }
-
-    .quiz_text {
-        width: 70%;
-    }
-
-    .quiz_text_title {
-        margin-top: 0px;
-        font-size: 26px;
-    }
-
-    .quiz_text_text {
-        font-size: 14px;
-    }
-
-    .quiz_text_btns {
-        margin-top: 20px;
-    }
-
-    .aps_btn, .gp_btn {
-        height: 35px;
-    }
-
-    .aps_btn:hover, .gp_btn:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        transition-duration: 1s;
-    }
-
-    .img_circles {
-        height: 125px;
-        margin-top: -37%;
-        margin-right: -5px;
-    }
-
-    .kontrnastup_block {
-        padding: 0 35px;
-        margin-top: 15px;
-    }
-
-    .kontrnastup_text {
-        width: 100%;
-    }
-
-    .kontr_text_title {
-        font-size: 26px;
-    }
-
-    .kontr_text_text {
-        font-size: 14px;
-    }
-
-    .kontrnastup_photo {
-        width: 100%;
-        text-align: center;
-    }
-
-    .img_kontr {
-        width: 70%;
-    }
-
-    .img_sky_line {
-        margin-top: -50px;
-        height: 60px;
-    }
-
-    .our_lab {
-        padding-bottom: 40px;
-    }
-
-    .our_lab_block {
-        padding-top: 25px;
-        padding-left: 20px;
-    }
-
-    .our_lab_img {
-        width: 90%;
-    }
-
-    .lab_text {
-        font-size: 14px;
-    }
-
-    .lab_subtext {
-        margin-top: 10px;
-        font-size: 15px;
-    }
-
-    .img_wind_pc {
-        margin-top: -10%;
-        width: 100%;
-    }
-
-    .img_cletka {
-        margin-top: -10%;
-    }
-
-    .footer_text {
-        margin-top: -8%;
-        padding-left: 15%;
-        font-size: 13px;
-    }
+.diamon_right{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 72%;
 }
 
-@media (max-width: 505px) {
-
-    .img_angel {
-        width: 150%;
-        margin-left: 35%;
-        /*height: 40%;*/
-    }
-
-    .img_subtitle {
-        width: 85%;
-        margin-top: -20%;
-    }
-
-    .invite_block_title {
-        margin-top: 10px;
-        margin-left: -5px !important;
-    }
-
-    .who_we_blocks {
-        margin-top: 25%;
-    }
-
-    .who_we_title {
-        padding-left: 20px;
-    }
-
-    .img_tv {
-        height: 90px;
-        padding-right: 10px;
-    }
-
-    .img_who_we_title {
-        /*height: 90px;*/
-        height: 120%;
-        width: 130%;
-        padding-top: 25%;
-    }
-
-    .img_planet {
-        width: 90%;
-        margin-top: -25%;
-        /*margin-right: -10%;*/
-        margin-left: 10%;
-    }
-
-    .who_we_text {
-        width: 110%;
-        padding-left: 20px;
-        margin-top: 10px;
-        font-size: 13px;
-    }
-
-    .who_we_block_img {
-        margin-top: 25px;
-    }
-
-    .who_we_slogan_block{
-        margin-top: 50px;
-    }
-
-    .img_frane {
-        width: 60%;
-    }
-
-    .who_we_slogan {
-        margin-top: -10%;
-    }
-
-    p.slogan_text {
-        font-size: 11px;
-        margin-top: -29%;
-    }
-
-    .who_we_table_block {
-        padding-top: 50px;
-        /*padding-bottom: 50px;*/
-    }
-
-    .cont_inside_table_text {
-        top: 39%;
-    }
-
-    .table_text {
-        font-size: 8px;
-    }
-
-    .cont_inside_table_btn {
-        bottom: 0%;
-    }
-
-    .table_btn_play {
-        width: 100%;
-        height: 21px;
-    }
-
-    .products_page {
-        padding-bottom: 70px;
-    }
-
-    .img_line {
-        height: 15px;
-    }
-
-    .products_blocks {
-        margin: 10px 20px 0 20px;
-    }
-
-    .products_block_text {
-        padding-left: 15px;
-        font-size: 13px;
-    }
-
-    .product_title {
-        margin-top: 15px;
-    }
-
-    .product_title_text {
-        width: 65%;
-    }
-
-    .product_title_images {
-        width: 30%;
-    }
-
-    .img_cir {
-        width: 85%;
-        height: 60%;
-    }
-
-    .quiz_block {
-        margin-top: 15px;
-        padding: 0 20px;
-    }
-
-    .quiz_photo {
-        width: 25%;
-    }
-
-    .img_quiz_logo {
-        width: 100%;
-    }
-
-    .quiz_text {
-        width: 70%;
-    }
-
-    .quiz_text_title {
-        margin-top: 0px;
-        font-size: 25px;
-    }
-
-    .quiz_text_text {
-        font-size: 12px;
-    }
-
-    .quiz_text_btns {
-        margin-top: 20px;
-    }
-
-    .aps_btn, .gp_btn {
-        height: 35px;
-    }
-
-    .aps_btn:hover, .gp_btn:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        transition-duration: 1s;
-    }
-
-    .img_circles {
-        height: 125px;
-        margin-top: -38%;
-        margin-right: -5px;
-    }
-
-    .kontrnastup_block {
-        padding: 0 20px;
-        margin-top: 15px;
-    }
-
-    .kontrnastup_text {
-        width: 100%;
-    }
-
-    .kontr_text_title {
-        font-size: 24px;
-    }
-
-    .kontr_text_text {
-        font-size: 12px;
-    }
-
-    .kontrnastup_photo {
-        width: 100%;
-        text-align: center;
-    }
-
-    .img_kontr {
-        width: 70%;
-    }
-
-    .img_sky_line {
-        margin-top: -50px;
-        height: 60px;
-    }
-
-    .our_lab {
-        padding-bottom: 20px;
-    }
-
-    .our_lab_block {
-        padding-top: 35px;
-        padding-left: 20px;
-    }
-
-    .our_lab_img {
-        width: 90%;
-    }
-
-    .lab_text {
-        font-size: 13px;
-    }
-
-    .lab_subtext {
-        margin-top: 10px;
-        font-size: 15px;
-    }
-
-    .img_wind_pc {
-        margin-top: -7%;
-        width: 100%;
-    }
-
-    .img_cletka {
-        margin-top: -10%;
-    }
-
-    .footer_text {
-        margin-top: -8%;
-        padding-left: 15%;
-        font-size: 13px;
-    }
+.buble_right_bot{
+    width: 125%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: -2%am;
 }
 
-@media (max-width: 390px) {
+/*@media (min-width: 1441px) {*/
+/*    .img_angel {*/
+/*        width: 135%;*/
+/*        margin-left: 45%;*/
+/*    }*/
 
-    .img_angel {
-        width: 150%;
-        margin-left: 35%;
-    }
+/*    .img_subtitle {*/
+/*        width: 100%;*/
+/*        margin-top: -28%;*/
+/*    }*/
 
-    .img_subtitle {
-        width: 85%;
-        margin-top: -25%;
-    }
+/*    .invite_block_title {*/
+/*        margin-top: 15px;*/
+/*        margin-left: -5px !important;*/
+/*    }*/
 
-    .invite_block_title {
-        margin-top: 5px;
-        margin-left: -5px !important;
-    }
+/*    .who_we_blocks {*/
+/*        margin-top: 25%;*/
+/*    }*/
 
-    .who_we_blocks {
-        margin-top: 25%;
-    }
+/*    .who_we_title {*/
+/*        padding-left: 110px;*/
+/*    }*/
 
-    .who_we_title {
-        padding-left: 10px;
-    }
+/*    .img_tv {*/
+/*        height: 300px;*/
+/*        padding-right: 20px;*/
+/*    }*/
 
-    .img_tv {
-        height: 50px;
-        padding-right: 10px;
-    }
+/*    .img_who_we_title {*/
+/*        height: 120%;*/
+/*        width: 130%;*/
+/*        padding-top: 15%;*/
+/*    }*/
 
-    .img_who_we_title {
-        height: 110%;
-        width: 120%;
-        padding-top: 25%;
-    }
+/*    .img_planet {*/
+/*        width: 100%;*/
+/*        margin-top: -25%;*/
+/*        margin-right: -5%;*/
+/*    }*/
 
-    .img_planet {
-        width: 100%;
-        margin-top: -45%;
-        margin-right: -5%;
-    }
+/*    .who_we_text {*/
+/*        width: 120%;*/
+/*        padding-left: 110px;*/
+/*        margin-top: 25px;*/
+/*        font-size: 38px;*/
+/*    }*/
 
-    .who_we_text {
-        width: 100%;
-        padding-left: 10px;
-        margin-top: 5px;
-        font-size: 7px;
-    }
+/*    .who_we_slogan {*/
+/*        margin-top: -13%;*/
+/*    }*/
 
-    .who_we_block_img {
-        margin-top: 25px;
-    }
+/*    p.slogan_text {*/
+/*        margin-top: -25%;*/
+/*        font-size: 35px;*/
+/*    }*/
 
-    .img_frane {
-        width: 60%;
-    }
+/*    .who_we_table_block {*/
+/*        padding-top: 200px;*/
+/*    }*/
 
-    .who_we_slogan_block{
-        margin-top: 25px;
-    }
+/*    .cont_inside_table_text {*/
+/*        top: 45%;*/
+/*    }*/
 
-    .who_we_slogan {
-        margin-top: -10%;
-    }
+/*    .table_text {*/
+/*        font-size: 36px;*/
+/*    }*/
 
-    p.slogan_text {
-        font-size: 7px;
-        margin-top: -29%;
-    }
+/*    .cont_inside_table_btn {*/
+/*        bottom: 9%;*/
+/*    }*/
 
-    .who_we_table_block {
-        padding-top: 70px;
-        padding-bottom: 25px;
-    }
+/*    .table_btn_play {*/
+/*        width: 100%;*/
+/*        height: 65px;*/
+/*    }*/
 
-    .cont_inside_table_text {
-        top: 45%;
-    }
 
-    .table_text {
-        font-size: 5px;
-    }
+/*    .products_page {*/
+/*        padding-bottom: 135px;*/
+/*    }*/
 
-    .cont_inside_table_btn {
-        bottom: -12%;
-    }
+/*    .img_line {*/
+/*        height: 25px;*/
+/*    }*/
 
-    .table_btn_play {
-        width: 100%;
-        height: 10px;
-    }
+/*    .products_blocks {*/
+/*        margin: 50px 110px 0 110px;*/
+/*    }*/
 
-    .products_page {
-        padding-bottom: 20px;
-        background-size: 115%;
-    }
+/*    .products_block_text {*/
+/*        padding-left: 35px;*/
+/*        font-size: 40px;*/
+/*    }*/
 
-    .cont_inside_table_gif_man{
-        bottom: 25px;
-    }
+/*    .product_title {*/
+/*        margin-top: 15px;*/
+/*    }*/
 
-    .cont_inside_table_gif_pointer{
-        bottom: 25px;
-    }
+/*    .product_title_text {*/
+/*        width: 65%;*/
+/*    }*/
 
-    .img_line {
-        height: 15px;
-    }
+/*    .product_title_images {*/
+/*        width: 30%;*/
+/*    }*/
 
-    .products_blocks {
-        margin: 5px 10px 0 10px;
-    }
+/*    .img_cir {*/
+/*        width: 85%;*/
+/*        height: 60%;*/
+/*    }*/
 
-    .products_block_text {
-        padding-left: 15px;
-        font-size: 7px;
-    }
+/*    .quiz_block {*/
+/*        margin-top: 15px;*/
+/*        padding: 0 110px;*/
+/*    }*/
 
-    .product_title {
-        margin-top: 15px;
-    }
+/*    .quiz_photo {*/
+/*        width: 25%;*/
+/*    }*/
 
-    .product_title_text {
-        width: 65%;
-    }
+/*    .img_quiz_logo {*/
+/*        width: 100%;*/
+/*    }*/
 
-    .product_title_images {
-        width: 30%;
-    }
+/*    .quiz_text {*/
+/*        width: 70%;*/
+/*    }*/
 
-    .img_cir {
-        width: 85%;
-        height: 60%;
-    }
+/*    .quiz_text_title {*/
+/*        margin-top: 0px;*/
+/*        font-size: 75px;*/
+/*    }*/
 
-    .quiz_block {
-        margin-top: 15px;
-        padding: 0 10px;
-    }
+/*    .quiz_text_text {*/
+/*        font-size: 55px;*/
+/*    }*/
 
-    .quiz_photo {
-        width: 25%;
-    }
+/*    .quiz_text_btns {*/
+/*        margin-top: 35px;*/
+/*    }*/
 
-    .img_quiz_logo {
-        width: 100%;
-    }
+/*    .aps_btn, .gp_btn {*/
+/*        height: 115px;*/
+/*    }*/
 
-    .quiz_text {
-        width: 70%;
-    }
+/*    .aps_btn:hover, .gp_btn:hover {*/
+/*        cursor: pointer;*/
+/*        transform: scale(1.02);*/
+/*        transition-duration: 1s;*/
+/*    }*/
 
-    .quiz_text_title {
-        margin-top: 0px;
-        font-size: 15px;
-        margin-bottom: 5px;
-    }
+/*    .img_circles {*/
+/*        height: 350px;*/
+/*        margin-top: -30%;*/
+/*        margin-right: -20px;*/
+/*    }*/
 
-    .quiz_text_text {
-        font-size: 7px;
-    }
+/*    .kontrnastup_block {*/
+/*        padding: 0 110px;*/
+/*        margin-top: 25px;*/
+/*    }*/
 
-    .quiz_text_btns {
-        margin-top: 10px;
-    }
+/*    .kontrnastup_text {*/
+/*        width: 100%;*/
+/*    }*/
 
-    .aps_btn, .gp_btn {
-        height: 10px;
-    }
+/*    .kontr_text_title {*/
+/*        font-size: 75px;*/
+/*    }*/
 
-    .aps_btn:hover, .gp_btn:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-        transition-duration: 1s;
-    }
+/*    .kontr_text_text {*/
+/*        font-size: 55px;*/
+/*    }*/
 
-    .img_circles {
-        height: 70px;
-        margin-top: -44%;
-        margin-right: -5px;
-    }
+/*    .kontrnastup_photo {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
 
-    .kontrnastup_block {
-        padding: 0 10px;
-        margin-top: 5px;
-    }
+/*    .img_kontr {*/
+/*        width: 70%;*/
+/*    }*/
 
-    .kontrnastup_text {
-        width: 100%;
-    }
+/*    .img_sky_line {*/
+/*        margin-top: -110px;*/
+/*        height: 150px;*/
+/*    }*/
 
-    .kontr_text_title {
-        font-size: 15px;
-    }
+/*    .our_lab {*/
+/*        padding-bottom: 90px;*/
+/*    }*/
 
-    .kontr_text_text {
-        font-size: 7px;
-    }
+/*    .our_lab_block {*/
+/*        padding-top: 110px;*/
+/*        padding-left: 110px;*/
+/*    }*/
 
-    .kontrnastup_photo {
-        width: 100%;
-        text-align: center;
-    }
+/*    .our_lab_img {*/
+/*        width: 90%;*/
+/*    }*/
 
-    .img_kontr {
-        width: 70%;
-    }
+/*    .lab_text {*/
+/*        font-size: 40px;*/
+/*    }*/
 
-    .img_sky_line {
-        margin-top: -16px;
-        height: 20px;
-    }
+/*    .lab_subtext {*/
+/*        margin-top: 10px;*/
+/*        font-size: 45px;*/
+/*    }*/
 
-    .our_lab {
-        padding-bottom: 20px;
-    }
+/*    .img_wind_pc {*/
+/*        margin-top: -8%;*/
+/*        width: 100%;*/
+/*    }*/
 
-    .our_lab_block {
-        padding-top: 10px;
-        padding-left: 10px;
-    }
+/*    .img_cletka {*/
+/*        margin-top: -10%;*/
+/*    }*/
 
-    .our_lab_img {
-        width: 90%;
-    }
+/*    .footer_text {*/
+/*        margin-top: -10%;*/
+/*        padding-left: 19%;*/
+/*        font-size: 35px;*/
+/*    }*/
 
-    .lab_text {
-        font-size: 7px;
-    }
+/*}*/
 
-    .lab_subtext {
-        margin-top: 10px;
-        font-size: 9px;
-    }
+/*@media (max-width: 1440px) {*/
 
-    .img_wind_pc {
-        margin-top: -3%;
-        width: 100%;
-    }
+/*    .img_angel {*/
+/*        width: 150%;*/
+/*        margin-left: 35%;*/
+/*    }*/
 
-    .img_cletka {
-        margin-top: -10%;
-    }
+/*    .img_subtitle {*/
+/*        width: 100%;*/
+/*        margin-top: -28%;*/
+/*    }*/
 
-    .footer_text {
-        margin-top: -15%;
-        padding-left: 11%;
-        font-size: 6px;
-    }
+/*    .invite_block_title {*/
+/*        margin-top: 20px;*/
+/*        margin-left: -5px !important;*/
+/*    }*/
 
-}
+/*    .who_we_blocks {*/
+/*        margin-top: 25%;*/
+/*    }*/
+
+/*    .who_we_title {*/
+/*        padding-left: 65px;*/
+/*    }*/
+
+/*    .img_tv {*/
+/*        height: 200px;*/
+/*        padding-right: 10px;*/
+/*    }*/
+
+/*    .img_who_we_title {*/
+/*        height: 120%;*/
+/*        width: 130%;*/
+/*        padding-top: 15%;*/
+/*    }*/
+
+/*    .img_planet {*/
+/*        width: 100%;*/
+/*        margin-top: -25%;*/
+/*        margin-right: -5%;*/
+/*    }*/
+
+/*    .who_we_text {*/
+/*        width: 120%;*/
+/*        padding-left: 65px;*/
+/*        margin-top: 25px;*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*    .who_we_slogan {*/
+/*        margin-top: -13%;*/
+/*    }*/
+
+/*    p.slogan_text {*/
+/*        margin-top: -25%;*/
+/*        font-size: 28px;*/
+/*    }*/
+
+/*    .who_we_table_block {*/
+/*        padding-top: 120px;*/
+/*    }*/
+
+/*    .cont_inside_table_text {*/
+/*        top: 42%;*/
+/*    }*/
+
+/*    .table_text {*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .cont_inside_table_btn {*/
+/*        bottom: 9%;*/
+/*    }*/
+
+/*    .table_btn_play {*/
+/*        width: 100%;*/
+/*        height: 60px;*/
+/*    }*/
+
+
+/*    .products_page {*/
+/*        padding-bottom: 95px;*/
+/*    }*/
+
+/*    .img_line {*/
+/*        height: 25px;*/
+/*    }*/
+
+/*    .products_blocks {*/
+/*        margin: 35px 65px 0 65px;*/
+/*    }*/
+
+/*    .products_block_text {*/
+/*        padding-left: 25px;*/
+/*        font-size: 28px;*/
+/*    }*/
+
+/*    .product_title {*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .product_title_text {*/
+/*        width: 65%;*/
+/*    }*/
+
+/*    .product_title_images {*/
+/*        width: 30%;*/
+/*    }*/
+
+/*    .img_cir {*/
+/*        width: 85%;*/
+/*        height: 60%;*/
+/*    }*/
+
+/*    .quiz_block {*/
+/*        margin-top: 15px;*/
+/*        padding: 0 65px;*/
+/*    }*/
+
+/*    .quiz_photo {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .img_quiz_logo {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .quiz_text {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .quiz_text_title {*/
+/*        margin-top: 0px;*/
+/*        font-size: 55px;*/
+/*    }*/
+
+/*    .quiz_text_text {*/
+/*        font-size: 35px;*/
+/*    }*/
+
+/*    .quiz_text_btns {*/
+/*        margin-top: 35px;*/
+/*    }*/
+
+/*    .aps_btn, .gp_btn {*/
+/*        height: 85px;*/
+/*    }*/
+
+/*    .aps_btn:hover, .gp_btn:hover {*/
+/*        cursor: pointer;*/
+/*        transform: scale(1.02);*/
+/*        transition-duration: 1s;*/
+/*    }*/
+
+/*    .img_circles {*/
+/*        height: 260px;*/
+/*        margin-top: -32%;*/
+/*        margin-right: -15px;*/
+/*    }*/
+
+/*    .kontrnastup_block {*/
+/*        padding: 0 65px;*/
+/*        margin-top: 25px;*/
+/*    }*/
+
+/*    .kontrnastup_text {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .kontr_text_title {*/
+/*        font-size: 55px;*/
+/*    }*/
+
+/*    .kontr_text_text {*/
+/*        font-size: 35px;*/
+/*    }*/
+
+/*    .kontrnastup_photo {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .img_kontr {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .img_sky_line {*/
+/*        margin-top: -80px;*/
+/*        height: 100px;*/
+/*    }*/
+
+/*    .our_lab {*/
+/*        padding-bottom: 40px;*/
+/*    }*/
+
+/*    .our_lab_block {*/
+/*        padding-top: 25px;*/
+/*        padding-left: 65px;*/
+/*    }*/
+
+/*    .our_lab_img {*/
+/*        width: 90%;*/
+/*    }*/
+
+/*    .lab_text {*/
+/*        font-size: 28px;*/
+/*    }*/
+
+/*    .lab_subtext {*/
+/*        margin-top: 10px;*/
+/*        font-size: 32px;*/
+/*    }*/
+
+/*    .img_wind_pc {*/
+/*        margin-top: -8%;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .img_cletka {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    .footer_text {*/
+/*        margin-top: -11%;*/
+/*        padding-left: 24%;*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*}*/
+
+/*@media (max-width: 1260px) {*/
+
+/*    .img_angel {*/
+/*        width: 150%;*/
+/*        margin-left: 35%;*/
+/*    }*/
+
+/*    .img_subtitle {*/
+/*        width: 100%;*/
+/*        margin-top: -28%;*/
+/*    }*/
+
+/*    .invite_block_title {*/
+/*        margin-top: 20px;*/
+/*        margin-left: -5px !important;*/
+/*    }*/
+
+/*    .who_we_blocks {*/
+/*        margin-top: 25%;*/
+/*    }*/
+
+/*    .who_we_title {*/
+/*        padding-left: 65px;*/
+/*    }*/
+
+/*    .img_tv {*/
+/*        height: 175px;*/
+/*        padding-right: 10px;*/
+/*    }*/
+
+/*    .img_who_we_title {*/
+/*        !*height: 90px;*!*/
+/*        height: 120%;*/
+/*        width: 130%;*/
+/*        padding-top: 15%;*/
+/*    }*/
+
+/*    .img_planet {*/
+/*        width: 100%;*/
+/*        margin-top: -25%;*/
+/*        margin-right: -5%;*/
+/*    }*/
+
+/*    .who_we_text {*/
+/*        width: 120%;*/
+/*        padding-left: 65px;*/
+/*        margin-top: 25px;*/
+/*        font-size: 21px;*/
+/*    }*/
+
+/*    .who_we_slogan {*/
+/*        margin-top: -13%;*/
+/*    }*/
+
+/*    p.slogan_text {*/
+/*        margin-top: -25%;*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .who_we_table_block {*/
+/*        padding-top: 110px;*/
+/*    }*/
+
+/*    .cont_inside_table_text {*/
+/*        top: 40%;*/
+/*    }*/
+
+/*    .table_text {*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .cont_inside_table_btn {*/
+/*        bottom: 9%;*/
+/*    }*/
+
+/*    .table_btn_play {*/
+/*        width: 100%;*/
+/*        height: 45px;*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+
+/*    .products_page {*/
+/*        padding-bottom: 95px;*/
+/*    }*/
+
+/*    .img_line {*/
+/*        height: 25px;*/
+/*    }*/
+
+/*    .products_blocks {*/
+/*        margin: 25px 65px 0 65px;*/
+/*    }*/
+
+/*    .products_block_text {*/
+/*        padding-left: 25px;*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .product_title {*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .product_title_text {*/
+/*        width: 65%;*/
+/*    }*/
+
+/*    .product_title_images {*/
+/*        width: 30%;*/
+/*    }*/
+
+/*    .img_cir {*/
+/*        width: 85%;*/
+/*        height: 60%;*/
+/*    }*/
+
+/*    .quiz_block {*/
+/*        margin-top: 15px;*/
+/*        padding: 0 65px;*/
+/*    }*/
+
+/*    .quiz_photo {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .img_quiz_logo {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .quiz_text {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .quiz_text_title {*/
+/*        margin-top: 0px;*/
+/*        font-size: 47px;*/
+/*    }*/
+
+/*    .quiz_text_text {*/
+/*        font-size: 30px;*/
+/*    }*/
+
+/*    .quiz_text_btns {*/
+/*        margin-top: 30px;*/
+/*    }*/
+
+/*    .aps_btn, .gp_btn {*/
+/*        height: 70px;*/
+/*    }*/
+
+/*    .aps_btn:hover, .gp_btn:hover {*/
+/*        cursor: pointer;*/
+/*        transform: scale(1.02);*/
+/*        transition-duration: 1s;*/
+/*    }*/
+
+/*    .img_circles {*/
+/*        height: 225px;*/
+/*        margin-top: -32%;*/
+/*        margin-right: -12px;*/
+/*    }*/
+
+/*    .kontrnastup_block {*/
+/*        padding: 0 65px;*/
+/*        margin-top: 25px;*/
+/*    }*/
+
+/*    .kontrnastup_text {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .kontr_text_title {*/
+/*        font-size: 47px;*/
+/*    }*/
+
+/*    .kontr_text_text {*/
+/*        font-size: 30px;*/
+/*    }*/
+
+/*    .kontrnastup_photo {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .img_kontr {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .img_sky_line {*/
+/*        margin-top: -80px;*/
+/*        height: 100px;*/
+/*    }*/
+
+/*    .our_lab {*/
+/*        padding-bottom: 40px;*/
+/*    }*/
+
+/*    .our_lab_block {*/
+/*        padding-top: 25px;*/
+/*        padding-left: 65px;*/
+/*    }*/
+
+/*    .our_lab_img {*/
+/*        width: 90%;*/
+/*    }*/
+
+/*    .lab_text {*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*    .lab_subtext {*/
+/*        margin-top: 10px;*/
+/*        font-size: 27px;*/
+/*    }*/
+
+/*    .img_wind_pc {*/
+/*        margin-top: -8%;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .img_cletka {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    .footer_text {*/
+/*        margin-top: -11%;*/
+/*        padding-left: 21%;*/
+/*        font-size: 21px;*/
+/*    }*/
+
+/*}*/
+
+/*@media (max-width: 990px) {*/
+
+/*    .block_separ{*/
+/*        width: 0%;*/
+/*    }*/
+
+/*    .img_angel {*/
+/*        width: 150%;*/
+/*        margin-left: 35%;*/
+/*    }*/
+
+/*    .img_subtitle {*/
+/*        width: 85%;*/
+/*        margin-top: -20%;*/
+/*    }*/
+
+/*    .invite_block_title {*/
+/*        margin-top: 10px;*/
+/*        margin-left: -5px !important;*/
+/*    }*/
+
+/*    .who_we_blocks {*/
+/*        margin-top: 25%;*/
+/*    }*/
+
+/*    .who_we_title {*/
+/*        padding-left: 50px;*/
+/*    }*/
+
+/*    .img_tv {*/
+/*        height: 130px;*/
+/*        padding-right: 10px;*/
+/*    }*/
+
+/*    .img_who_we_title {*/
+/*        !*height: 90px;*!*/
+/*        height: 120%;*/
+/*        width: 130%;*/
+/*        padding-top: 15%;*/
+/*    }*/
+
+/*    .img_planet {*/
+/*        width: 100%;*/
+/*        margin-top: -25%;*/
+/*        margin-right: -5%;*/
+/*    }*/
+
+/*    .who_we_text {*/
+/*        width: 110%;*/
+/*        padding-left: 50px;*/
+/*        margin-top: 10px;*/
+/*        font-size: 17px;*/
+/*    }*/
+
+/*    .who_we_slogan {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    p.slogan_text {*/
+/*        font-size: 19px;*/
+/*        margin-top: -26%;*/
+/*    }*/
+
+/*    .who_we_table_block {*/
+/*        padding-top: 90px;*/
+/*        !*padding-bottom: 100px;*!*/
+/*    }*/
+
+/*    .img_table {*/
+/*        !*margin: 5% 0 0 7%;*!*/
+/*    }*/
+
+/*    .table_text {*/
+/*        font-size: 16px;*/
+/*        !*margin-top: -28%;*!*/
+/*    }*/
+
+/*    .cont_inside_table_btn {*/
+/*        bottom: 6%;*/
+/*    }*/
+
+/*    .table_btn_play {*/
+/*        width: 100%;*/
+/*        height: 36px;*/
+/*    }*/
+
+/*    .products_page {*/
+/*        padding-bottom: 70px;*/
+/*    }*/
+
+/*    .img_line {*/
+/*        height: 25px;*/
+/*    }*/
+
+/*    .products_blocks {*/
+/*        margin: 25px 50px 0 50px;*/
+/*    }*/
+
+/*    .products_block_text {*/
+/*        padding-left: 25px;*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    .product_title {*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .product_title_text {*/
+/*        width: 65%;*/
+/*    }*/
+
+/*    .product_title_images {*/
+/*        width: 30%;*/
+/*    }*/
+
+/*    .img_cir {*/
+/*        width: 85%;*/
+/*        height: 60%;*/
+/*    }*/
+
+/*    .quiz_block {*/
+/*        margin-top: 15px;*/
+/*        padding: 0 50px;*/
+/*    }*/
+
+/*    .quiz_photo {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .img_quiz_logo {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .quiz_text {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .quiz_text_title {*/
+/*        margin-top: 0px;*/
+/*        font-size: 40px;*/
+/*    }*/
+
+/*    .quiz_text_text {*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .quiz_text_btns {*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .aps_btn, .gp_btn {*/
+/*        height: 55px;*/
+/*    }*/
+
+/*    .aps_btn:hover, .gp_btn:hover {*/
+/*        cursor: pointer;*/
+/*        transform: scale(1.02);*/
+/*        transition-duration: 1s;*/
+/*    }*/
+
+/*    .img_circles {*/
+/*        height: 175px;*/
+/*        margin-top: -28%;*/
+/*        margin-right: -5px;*/
+/*    }*/
+
+/*    .kontrnastup_block {*/
+/*        padding: 0 50px;*/
+/*        margin-top: 25px;*/
+/*    }*/
+
+/*    .kontrnastup_text {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .kontr_text_title {*/
+/*        font-size: 40px;*/
+/*    }*/
+
+/*    .kontr_text_text {*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .kontrnastup_photo {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .img_kontr {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .img_sky_line {*/
+/*        margin-top: -50px;*/
+/*        height: 80px;*/
+/*    }*/
+
+/*    .our_lab {*/
+/*        padding-bottom: 40px;*/
+/*    }*/
+
+/*    .our_lab_block {*/
+/*        padding-top: 25px;*/
+/*        padding-left: 50px;*/
+/*    }*/
+
+/*    .our_lab_img {*/
+/*        width: 90%;*/
+/*    }*/
+
+/*    .lab_text {*/
+/*        font-size: 23px;*/
+/*    }*/
+
+/*    .lab_subtext {*/
+/*        margin-top: 10px;*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*    .img_wind_pc {*/
+/*        margin-top: -8%;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .img_cletka {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    .footer_text {*/
+/*        margin-top: -12%;*/
+/*        padding-left: 18%;*/
+/*        font-size: 18px;*/
+/*    }*/
+
+/*}*/
+
+/*@media (max-width: 770px) {*/
+
+/*    .img_angel {*/
+/*        width: 150%;*/
+/*        margin-left: 35%;*/
+/*    }*/
+
+/*    .img_subtitle {*/
+/*        width: 93%;*/
+/*        margin-top: -25%;*/
+/*    }*/
+
+/*    .invite_block_title {*/
+/*        margin-top: 10px;*/
+/*        margin-left: -5px !important;*/
+/*    }*/
+
+/*    .who_we_blocks {*/
+/*        margin-top: 25%;*/
+/*    }*/
+
+/*    .who_we_title {*/
+/*        padding-left: 35px;*/
+/*    }*/
+
+/*    .img_tv {*/
+/*        height: 90px;*/
+/*        padding-right: 10px;*/
+/*    }*/
+
+/*    .img_who_we_title {*/
+/*        !*height: 90px;*!*/
+/*        height: 120%;*/
+/*        width: 130%;*/
+/*        padding-top: 15%;*/
+/*    }*/
+
+/*    .img_planet {*/
+/*        width: 100%;*/
+/*        margin-top: -25%;*/
+/*        margin-right: -5%;*/
+/*    }*/
+
+/*    .who_we_text {*/
+/*        width: 110%;*/
+/*        padding-left: 35px;*/
+/*        margin-top: 10px;*/
+/*        font-size: 16px;*/
+/*    }*/
+
+/*    .who_we_slogan {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    .img_frane {*/
+/*        width: 64%;*/
+/*    }*/
+
+/*    p.slogan_text {*/
+/*        font-size: 16px;*/
+/*        margin-top: -30%;*/
+/*    }*/
+
+/*    .who_we_table_block {*/
+/*        padding-top: 90px;*/
+/*    }*/
+
+/*    .cont_inside_table_text {*/
+/*        top: 43%;*/
+/*    }*/
+
+/*    .table_text {*/
+/*        font-size: 11px;*/
+/*    }*/
+
+/*    .cont_inside_table_btn {*/
+/*        bottom: 4%;*/
+/*    }*/
+
+/*    .table_btn_play {*/
+/*        width: 100%;*/
+/*        height: 30px;*/
+/*    }*/
+
+
+/*    .products_page {*/
+/*        padding-bottom: 70px;*/
+/*    }*/
+
+/*    .img_line {*/
+/*        height: 15px;*/
+/*    }*/
+
+/*    .products_blocks {*/
+/*        margin: 15px 35px 0 35px;*/
+/*    }*/
+
+/*    .products_block_text {*/
+/*        padding-left: 15px;*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .product_title {*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .product_title_text {*/
+/*        width: 65%;*/
+/*    }*/
+
+/*    .product_title_images {*/
+/*        width: 30%;*/
+/*    }*/
+
+/*    .img_cir {*/
+/*        width: 85%;*/
+/*        height: 60%;*/
+/*    }*/
+
+/*    .quiz_block {*/
+/*        margin-top: 15px;*/
+/*        padding: 0 35px;*/
+/*    }*/
+
+/*    .quiz_photo {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .img_quiz_logo {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .quiz_text {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .quiz_text_title {*/
+/*        margin-top: 0px;*/
+/*        font-size: 26px;*/
+/*    }*/
+
+/*    .quiz_text_text {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .quiz_text_btns {*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .aps_btn, .gp_btn {*/
+/*        height: 35px;*/
+/*    }*/
+
+/*    .aps_btn:hover, .gp_btn:hover {*/
+/*        cursor: pointer;*/
+/*        transform: scale(1.02);*/
+/*        transition-duration: 1s;*/
+/*    }*/
+
+/*    .img_circles {*/
+/*        height: 125px;*/
+/*        margin-top: -37%;*/
+/*        margin-right: -5px;*/
+/*    }*/
+
+/*    .kontrnastup_block {*/
+/*        padding: 0 35px;*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .kontrnastup_text {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .kontr_text_title {*/
+/*        font-size: 26px;*/
+/*    }*/
+
+/*    .kontr_text_text {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .kontrnastup_photo {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .img_kontr {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .img_sky_line {*/
+/*        margin-top: -50px;*/
+/*        height: 60px;*/
+/*    }*/
+
+/*    .our_lab {*/
+/*        padding-bottom: 40px;*/
+/*    }*/
+
+/*    .our_lab_block {*/
+/*        padding-top: 25px;*/
+/*        padding-left: 20px;*/
+/*    }*/
+
+/*    .our_lab_img {*/
+/*        width: 90%;*/
+/*    }*/
+
+/*    .lab_text {*/
+/*        font-size: 14px;*/
+/*    }*/
+
+/*    .lab_subtext {*/
+/*        margin-top: 10px;*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .img_wind_pc {*/
+/*        margin-top: -10%;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .img_cletka {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    .footer_text {*/
+/*        margin-top: -8%;*/
+/*        padding-left: 15%;*/
+/*        font-size: 13px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 505px) {*/
+
+/*    .img_angel {*/
+/*        width: 150%;*/
+/*        margin-left: 35%;*/
+/*        !*height: 40%;*!*/
+/*    }*/
+
+/*    .img_subtitle {*/
+/*        width: 85%;*/
+/*        margin-top: -20%;*/
+/*    }*/
+
+/*    .invite_block_title {*/
+/*        margin-top: 10px;*/
+/*        margin-left: -5px !important;*/
+/*    }*/
+
+/*    .who_we_blocks {*/
+/*        margin-top: 25%;*/
+/*    }*/
+
+/*    .who_we_title {*/
+/*        padding-left: 20px;*/
+/*    }*/
+
+/*    .img_tv {*/
+/*        height: 90px;*/
+/*        padding-right: 10px;*/
+/*    }*/
+
+/*    .img_who_we_title {*/
+/*        !*height: 90px;*!*/
+/*        height: 120%;*/
+/*        width: 130%;*/
+/*        padding-top: 25%;*/
+/*    }*/
+
+/*    .img_planet {*/
+/*        width: 90%;*/
+/*        margin-top: -25%;*/
+/*        !*margin-right: -10%;*!*/
+/*        margin-left: 10%;*/
+/*    }*/
+
+/*    .who_we_text {*/
+/*        width: 110%;*/
+/*        padding-left: 20px;*/
+/*        margin-top: 10px;*/
+/*        font-size: 13px;*/
+/*    }*/
+
+/*    .who_we_block_img {*/
+/*        margin-top: 25px;*/
+/*    }*/
+
+/*    .who_we_slogan_block{*/
+/*        margin-top: 50px;*/
+/*    }*/
+
+/*    .img_frane {*/
+/*        width: 60%;*/
+/*    }*/
+
+/*    .who_we_slogan {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    p.slogan_text {*/
+/*        font-size: 11px;*/
+/*        margin-top: -29%;*/
+/*    }*/
+
+/*    .who_we_table_block {*/
+/*        padding-top: 50px;*/
+/*        !*padding-bottom: 50px;*!*/
+/*    }*/
+
+/*    .cont_inside_table_text {*/
+/*        top: 39%;*/
+/*    }*/
+
+/*    .table_text {*/
+/*        font-size: 8px;*/
+/*    }*/
+
+/*    .cont_inside_table_btn {*/
+/*        bottom: 0%;*/
+/*    }*/
+
+/*    .table_btn_play {*/
+/*        width: 100%;*/
+/*        height: 21px;*/
+/*    }*/
+
+/*    .products_page {*/
+/*        padding-bottom: 70px;*/
+/*    }*/
+
+/*    .img_line {*/
+/*        height: 15px;*/
+/*    }*/
+
+/*    .products_blocks {*/
+/*        margin: 10px 20px 0 20px;*/
+/*    }*/
+
+/*    .products_block_text {*/
+/*        padding-left: 15px;*/
+/*        font-size: 13px;*/
+/*    }*/
+
+/*    .product_title {*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .product_title_text {*/
+/*        width: 65%;*/
+/*    }*/
+
+/*    .product_title_images {*/
+/*        width: 30%;*/
+/*    }*/
+
+/*    .img_cir {*/
+/*        width: 85%;*/
+/*        height: 60%;*/
+/*    }*/
+
+/*    .quiz_block {*/
+/*        margin-top: 15px;*/
+/*        padding: 0 20px;*/
+/*    }*/
+
+/*    .quiz_photo {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .img_quiz_logo {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .quiz_text {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .quiz_text_title {*/
+/*        margin-top: 0px;*/
+/*        font-size: 25px;*/
+/*    }*/
+
+/*    .quiz_text_text {*/
+/*        font-size: 12px;*/
+/*    }*/
+
+/*    .quiz_text_btns {*/
+/*        margin-top: 20px;*/
+/*    }*/
+
+/*    .aps_btn, .gp_btn {*/
+/*        height: 35px;*/
+/*    }*/
+
+/*    .aps_btn:hover, .gp_btn:hover {*/
+/*        cursor: pointer;*/
+/*        transform: scale(1.02);*/
+/*        transition-duration: 1s;*/
+/*    }*/
+
+/*    .img_circles {*/
+/*        height: 125px;*/
+/*        margin-top: -38%;*/
+/*        margin-right: -5px;*/
+/*    }*/
+
+/*    .kontrnastup_block {*/
+/*        padding: 0 20px;*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .kontrnastup_text {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .kontr_text_title {*/
+/*        font-size: 24px;*/
+/*    }*/
+
+/*    .kontr_text_text {*/
+/*        font-size: 12px;*/
+/*    }*/
+
+/*    .kontrnastup_photo {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .img_kontr {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .img_sky_line {*/
+/*        margin-top: -50px;*/
+/*        height: 60px;*/
+/*    }*/
+
+/*    .our_lab {*/
+/*        padding-bottom: 20px;*/
+/*    }*/
+
+/*    .our_lab_block {*/
+/*        padding-top: 35px;*/
+/*        padding-left: 20px;*/
+/*    }*/
+
+/*    .our_lab_img {*/
+/*        width: 90%;*/
+/*    }*/
+
+/*    .lab_text {*/
+/*        font-size: 13px;*/
+/*    }*/
+
+/*    .lab_subtext {*/
+/*        margin-top: 10px;*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .img_wind_pc {*/
+/*        margin-top: -7%;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .img_cletka {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    .footer_text {*/
+/*        margin-top: -8%;*/
+/*        padding-left: 15%;*/
+/*        font-size: 13px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 390px) {*/
+
+/*    .img_angel {*/
+/*        width: 150%;*/
+/*        margin-left: 35%;*/
+/*    }*/
+
+/*    .img_subtitle {*/
+/*        width: 85%;*/
+/*        margin-top: -25%;*/
+/*    }*/
+
+/*    .invite_block_title {*/
+/*        margin-top: 5px;*/
+/*        margin-left: -5px !important;*/
+/*    }*/
+
+/*    .who_we_blocks {*/
+/*        margin-top: 25%;*/
+/*    }*/
+
+/*    .who_we_title {*/
+/*        padding-left: 10px;*/
+/*    }*/
+
+/*    .img_tv {*/
+/*        height: 50px;*/
+/*        padding-right: 10px;*/
+/*    }*/
+
+/*    .img_who_we_title {*/
+/*        height: 110%;*/
+/*        width: 120%;*/
+/*        padding-top: 25%;*/
+/*    }*/
+
+/*    .img_planet {*/
+/*        width: 100%;*/
+/*        margin-top: -45%;*/
+/*        margin-right: -5%;*/
+/*    }*/
+
+/*    .who_we_text {*/
+/*        width: 100%;*/
+/*        padding-left: 10px;*/
+/*        margin-top: 5px;*/
+/*        font-size: 7px;*/
+/*    }*/
+
+/*    .who_we_block_img {*/
+/*        margin-top: 25px;*/
+/*    }*/
+
+/*    .img_frane {*/
+/*        width: 60%;*/
+/*    }*/
+
+/*    .who_we_slogan_block{*/
+/*        margin-top: 25px;*/
+/*    }*/
+
+/*    .who_we_slogan {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    p.slogan_text {*/
+/*        font-size: 7px;*/
+/*        margin-top: -29%;*/
+/*    }*/
+
+/*    .who_we_table_block {*/
+/*        padding-top: 70px;*/
+/*        padding-bottom: 25px;*/
+/*    }*/
+
+/*    .cont_inside_table_text {*/
+/*        top: 45%;*/
+/*    }*/
+
+/*    .table_text {*/
+/*        font-size: 5px;*/
+/*    }*/
+
+/*    .cont_inside_table_btn {*/
+/*        bottom: -12%;*/
+/*    }*/
+
+/*    .table_btn_play {*/
+/*        width: 100%;*/
+/*        height: 10px;*/
+/*    }*/
+
+/*    .products_page {*/
+/*        padding-bottom: 20px;*/
+/*        background-size: 115%;*/
+/*    }*/
+
+/*    .cont_inside_table_gif_man{*/
+/*        bottom: 25px;*/
+/*    }*/
+
+/*    .cont_inside_table_gif_pointer{*/
+/*        bottom: 25px;*/
+/*    }*/
+
+/*    .img_line {*/
+/*        height: 15px;*/
+/*    }*/
+
+/*    .products_blocks {*/
+/*        margin: 5px 10px 0 10px;*/
+/*    }*/
+
+/*    .products_block_text {*/
+/*        padding-left: 15px;*/
+/*        font-size: 7px;*/
+/*    }*/
+
+/*    .product_title {*/
+/*        margin-top: 15px;*/
+/*    }*/
+
+/*    .product_title_text {*/
+/*        width: 65%;*/
+/*    }*/
+
+/*    .product_title_images {*/
+/*        width: 30%;*/
+/*    }*/
+
+/*    .img_cir {*/
+/*        width: 85%;*/
+/*        height: 60%;*/
+/*    }*/
+
+/*    .quiz_block {*/
+/*        margin-top: 15px;*/
+/*        padding: 0 10px;*/
+/*    }*/
+
+/*    .quiz_photo {*/
+/*        width: 25%;*/
+/*    }*/
+
+/*    .img_quiz_logo {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .quiz_text {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .quiz_text_title {*/
+/*        margin-top: 0px;*/
+/*        font-size: 15px;*/
+/*        margin-bottom: 5px;*/
+/*    }*/
+
+/*    .quiz_text_text {*/
+/*        font-size: 7px;*/
+/*    }*/
+
+/*    .quiz_text_btns {*/
+/*        margin-top: 10px;*/
+/*    }*/
+
+/*    .aps_btn, .gp_btn {*/
+/*        height: 10px;*/
+/*    }*/
+
+/*    .aps_btn:hover, .gp_btn:hover {*/
+/*        cursor: pointer;*/
+/*        transform: scale(1.02);*/
+/*        transition-duration: 1s;*/
+/*    }*/
+
+/*    .img_circles {*/
+/*        height: 70px;*/
+/*        margin-top: -44%;*/
+/*        margin-right: -5px;*/
+/*    }*/
+
+/*    .kontrnastup_block {*/
+/*        padding: 0 10px;*/
+/*        margin-top: 5px;*/
+/*    }*/
+
+/*    .kontrnastup_text {*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .kontr_text_title {*/
+/*        font-size: 15px;*/
+/*    }*/
+
+/*    .kontr_text_text {*/
+/*        font-size: 7px;*/
+/*    }*/
+
+/*    .kontrnastup_photo {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .img_kontr {*/
+/*        width: 70%;*/
+/*    }*/
+
+/*    .img_sky_line {*/
+/*        margin-top: -16px;*/
+/*        height: 20px;*/
+/*    }*/
+
+/*    .our_lab {*/
+/*        padding-bottom: 20px;*/
+/*    }*/
+
+/*    .our_lab_block {*/
+/*        padding-top: 10px;*/
+/*        padding-left: 10px;*/
+/*    }*/
+
+/*    .our_lab_img {*/
+/*        width: 90%;*/
+/*    }*/
+
+/*    .lab_text {*/
+/*        font-size: 7px;*/
+/*    }*/
+
+/*    .lab_subtext {*/
+/*        margin-top: 10px;*/
+/*        font-size: 9px;*/
+/*    }*/
+
+/*    .img_wind_pc {*/
+/*        margin-top: -3%;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .img_cletka {*/
+/*        margin-top: -10%;*/
+/*    }*/
+
+/*    .footer_text {*/
+/*        margin-top: -15%;*/
+/*        padding-left: 11%;*/
+/*        font-size: 6px;*/
+/*    }*/
+
+/*}*/
+
+/*--------*/
 
 /*.invite_block {*/
 /*    !*height: 180vh;*!*/
